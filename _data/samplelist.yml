@@ -1,0 +1,12 @@
+docs_list_title: Menu
+docs:
+
+- title: about
+  url: about.html
+
+- title: projects
+  url: projects.html
+
+- title: contacts
+  url: contacts.html
+  
