@@ -1,10 +1,14 @@
 ---
 layout: default
 ---
+<ul>
+{% for projecto in site.parada %}
 
-{% for texto in site.parada %}
-    <a href="{{ site.baseurl }}/parada/{{texto.slug}}>texto</a>
-             
-    <p> ifjfskid </p>
-
+<li> 
+	<a href="{{ site.baseurl }}/parada/{{projecto.slug}}">
+		{{ projecto.title }} </a> 
+</li>
 {% endfor %}
+</ul>
+
+{{ content }}
