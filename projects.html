@@ -2,4 +2,9 @@
 layout: default
 ---
 
-Algum conteudo de projects
+{% for texto in site.parada %}
+    <a href="{{ site.baseurl }}/parada/{{texto.slug}}>texto</a>
+             
+    <p> ifjfskid </p>
+
+{% endfor %}
